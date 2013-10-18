@@ -3,7 +3,7 @@ site :opscode
 metadata
 
 cookbook 'apt'
-cookbook 'unzip', github: 'wharton/chef-unzip'
+cookbook 'unzip', git: 'git://github.com/wharton/chef-unzip'
 cookbook 'imagemagick'
 cookbook 'java'
 cookbook 'database'
